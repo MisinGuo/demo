@@ -27,8 +27,9 @@ export default defineUserConfig({
     
     navbar: [
       { text: '首页', link: '/' },
-      { text: '商品展示', link: '/products' },
-      { text: '关于我们', link: '/about' }
+      { text: '所有产品', link: '/products' },
+      { text: '关于我们', link: '/about' },
+      { text: '联系我们', link: '/contact' }
     ],
     
     sidebar: {
@@ -38,6 +39,8 @@ export default defineUserConfig({
           children: [
             '/',
             '/products',
+            '/about',
+            '/contact'
           ]
         }
       ]
